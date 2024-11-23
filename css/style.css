@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fec16011;
+  }
+  
+  h1 {
+    font-weight: 500;
+    display: inline-block;
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    position: relative;
+    
+  }
+  h1::after{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 20px;
+    background-color: #FEC260;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    z-index: -2;
+  }
+  h1:hover::after{
+    height: 80%;
+    transition: .5s;
+  }
+
+  
+  form input {
+    box-shadow: none;
+  }
+  .btn-submit{
+    color: white;
+    background-color: #BB4120;
+    margin: 0 auto;
+  }
+  .container p{
+    font-family: Righteous, cursive;
+    color: #3FA65C;
+    font-size: 25px;
+    font-weight: 500;
+    
+  }
+
+
+  .btn-submit:hover{
+    background-color: #ad2f0c;
+  }
+  table th, table td {
+    text-align: center;
+    vertical-align: middle;
+  }
